@@ -13,7 +13,3 @@ ADD nginx.conf /etc/nginx/nginx.conf
 
 RUN mkdir /var/www
 RUN echo "<h1>Nginx up</h1>" > /var/www/index.html
-
-EXPOSE 80 443
-
-CMD nginx
